@@ -6,10 +6,10 @@ def cosine_similarity(tfidf_matrix):
     Calculates the cosine similarity between different movie overview
 
       Parameters:
-        tfidf_matrix (): The matrix which represents the overview of metadata
+        tfidf_matrix (ndarray): The matrix which represents the overview of metadata
 
       Returns:
-        cosine_sim (): Matrix which consists of cosine similarity of each movie overview with every other movie overfiew.
+        cosine_sim (ndarray): Matrix which consists of cosine similarity of each movie overview with every other movie overfiew.
 
     """
     cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)

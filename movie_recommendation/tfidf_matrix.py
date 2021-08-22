@@ -9,7 +9,7 @@ def get_tfidf_matrix(metadata):
         metadata (object): The data whose tf-idf matrix is to be calculated
 
       Returns:
-        tfidf_matrix (): The matrix which represents the metada
+        tfidf_matrix (ndarray): The matrix which represents the metada
 
     """
 

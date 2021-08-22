@@ -19,7 +19,7 @@ class Recommendation:
             metadata (object): Dataframe of the movie dataset.
 
           Returns:
-            indices (): Series having title as index and index  as the data of the series
+            indices (object): Series having title as index and index  as the data of the series
         """
 
         indices = pd.Series(
@@ -36,7 +36,7 @@ class Recommendation:
           title (str): Title of the movie like which other movies is to be recommended.
 
         Returns ():
-          top_ranked_movies (): The titles corresponding to the indices of the top elements
+          top_ranked_movies (object): The titles corresponding to the indices of the top elements
         """
 
         indices = self.title_to_index()
