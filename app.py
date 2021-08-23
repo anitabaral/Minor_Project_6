@@ -14,7 +14,8 @@ with open("config.yaml", "r") as stream:
 def main():
 
     recommendation = Recommendation(file_paths["csv_loc"])
-    print(recommendation.get_recommendations("A thriller movie that is fun."))
+    query = input ('Enter your query: ')
+    print(recommendation.get_recommendations(query))
 
 
 main()
