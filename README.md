@@ -22,10 +22,11 @@
 
 <h5>2. Dataset </h5>
   - Get the dataset from the link https://drive.google.com/file/d/1nuGxtaz5pPuChyPTj3O34XhnMD2vscVd/view?usp=sharing
+  
   - save it in a dataset folder  
 
 <h5>4. To run the code </h5>
   - python app.py
 
 <h4>Output: </h4>
-Top 5 similar articles to the article specified by the index.
+Top 10 recommendation of the movies based on the title provided by the user.
